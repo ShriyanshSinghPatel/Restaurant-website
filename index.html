@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Busy Bean</title>
+<!-------font awesome cdn--------->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--css linking sheet-->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="images/logo2.jpg"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#address">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Fast Food</a></li>
+            <li><a class="dropdown-item" href="#">Dishes</a></li>
+            <li><a class="dropdown-item" href="#">Beverages</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="images/p2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>Best lunch in Town</h4>
+        <p>Life’s too short for boring food</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/p3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>We have a historic precedent in a national dish</h4>
+        <p>Farm to fork</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/p4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>Satisfy your snack attack</h4>
+        <p>Taste the difference</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="3000">
+      <img src="images/p5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>Best Coffee in Town</h4>
+        <p>Eat. Drink. Love</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="extra-nav">
+<div class="mid">
+       <ul class="navbar-b">
+         <li><a href="#">WHAT'S NEW</a></li>
+         <li><a href="#">FOOD</a></li>
+         <li><a href="#">COMBOS</a></li>
+         <li><a href="#">HOME DELIVERY</a></li>
+         <li><a href="#">NUTRITIONAL INFO</a></li>
+       </ul>
+     </div>
+
+   </div>
+
+
+
+<section id="about">
+  <div class="description">
+    <h2>About the Restaurant</h2>
+    <p>The Bistro was established in 1995 by Chef John in the heart of a charming seaside 
+      town, known for its vibrant community and picturesque views. With a passion for 
+      culinary excellence, Chef John transformed a quaint building into a haven for food
+       enthusiasts, offering a menu that blends traditional flavors with innovative 
+       techniques. Every dish is crafted with the freshest ingredients, sourced locally 
+       to ensure top quality. The Bistro's ambiance, with its warm lighting and cozy decor,
+        provides a perfect setting for intimate dinners and lively gatherings alike.
+        Renowned for its exceptional service and mouthwatering cuisine, the Bistro has
+        become a beloved destination for both locals and visitors, promising an unforgettable 
+        dining experience that delights all the senses.</p>
+    <p>Besides our extensive coffee and tea selections, we offer freshly prepared
+       breakfast and lunch options, including gourmet sandwiches, flavorful wraps, 
+       and hearty soups. Our diverse menu also features a variety of appetizing sides,
+        crisp salads, and delightful desserts.</p>
+
+       <div class="left-bar light-grey">
+         <p>"Utilize nature's bounty to its fullest potential - at just the right time."
+           Freshness is the essence of flavor.</p>
+           <p><p>- Chef and Owner: John Smith</p></p>
+       </div>
+       <div class="cafe-img">
+         <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="">
+       </div>
+       <div class="cafe-timing">
+         <p><strong>Opening hours :</strong> everyday from 6am to 5pm</p>
+         <p><strong>Address :</strong> 15 Adr street, 5015, NY</p>
+       </div>
+  </div>
+</section>
+
+<hr>
+<section id="our-special">
+  <div class="special-content">
+
+<h1 class="special-h1">Must Try Our Special Dishes</h1>
+
+  <div class="row">
+<div class="pricing-column col-lg-4  col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/card1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Spinach and Cheese Samosa.</h5>
+      <p class="card-text">Spinach and Cheese Samosas are made with a flaky pastry filled with a savory mixture of spinach, cheese, and spices, creating a delightful blend of flavors and textures</p>
+    </div>
+    <div class="card-body">
+      <a href="https://www.chefhasti.com/cheesy-spinach-samosa-finger-food/" class="card-link">Info</a>
+      <a href="#" class="card-link">Order</a>
+    </div>
+  </div>
+  </div>
+
+<div class="pricing-column col-lg-4 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/card2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Greek Salad with Feta</h5>
+      <p class="card-text">Greek Salad with Feta is a refreshing and vibrant dish made with crisp cucumbers, ripe tomatoes, red onions, and green bell peppers.</p>
+    </div>
+    <div class="card-body">
+      <a href="https://www.loveandlemons.com/greek-salad/" class="card-link">Info</a>
+      <a href="#" class="card-link">Order</a>
+    </div>
+  </div>
+  </div>
+
+<div class="pricing-column col-lg-4 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/card3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bahubali Thali</h5>
+      <p class="card-text">The Bahubali Thali provides a delightful blend of flavors and textures, representing the richness and diversity of Indian cuisine in every bite.</p>
+    </div>
+    <div class="card-body">
+      <a href="https://in.pinterest.com/pin/indian-thali-dish-called-bahubali-dish--833869687266396161/" class="card-link">Info</a>
+      <a href="#" class="card-link">Order</a>
+    </div>
+  </div>
+  </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+<section id="online">
+  <div class="background-img">
+    <img src="https://images.unsplash.com/photo-1605902711834-8b11c3e3ef2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="pnone-image">
+    <div class="tag-lines">
+      <h3>Order online through our most popular App.</h3>
+      <h3>We Belive that The best or nothing.</h3>
+      <h3>We bet you won’t find better then us.</h3>
+      <h1 class="big-h3">0% Delivery Charge</h1>
+    </div>
+
+    <div class="download-btn">
+      <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </div>
+</section>
+
+<section id="address">
+<div class="address-content">
+  <h2>WHERE TO FIND US</h2>
+  <h5>Find us at 15 Adr street, 5015, NY</h5>
+  <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+  <div class="add-p">
+    <p><span>  FYI ! </span>  We offer full-service catering for any event,
+      large or small. We understand your needs and
+      we will cater the food to satisfy the biggerst
+      criteria of them all, both look and taste.</p>
+      <p class="table"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+  </div>
+
+
+    <form class="add-form" action="mailto:jitendra.patel.99811@gmail.com" method="post">
+      <p><input class="w3-input w3-padding w3-border" type="text" name="" placeholder="Name"></p>
+      <p><input class="w3-input w3-padding w3-border" type="number" name="" placeholder="How many people"></p>
+      <p><input class="w3-input w3-padding w3-border" type="datetime-local" name="" placeholder="Date and Time"></p>
+      <p><input class="w3-input w3-padding w3-border" type="text" name="" placeholder="Message / Special requirements"></p>
+      <div class="container">
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="button type--C">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">SUBMIT</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      </div>
+    </form>
+</div>
+</section>
+
+<section id=footer>
+  <div class="footer-content">
+    <a href="#carouselExampleCaptions"><div class="footer-btn"><button type="button" class="btn btn-light"><i class="fas fa-arrow-up"></i> To the top</button></div></a>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/shriyansh.patel.121"><i class="fab icons fa-facebook-square"></i></a>
+      <a href="https://www.linkedin.com/in/shriyansh-singh-patel-55aaa2245/"><i class="fab icons fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/shriyansh_singh_patel/"><i class="fab icons fa-instagram"></i></a>
+      <a href="https://x.com/SHRIYANSH25877"><i class="fab icons fa-twitter"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas icons fa-envelope"></i></a>
+    </div>
+    <p class="copyright">Copyright &copy; 2027 www.BusyBean.com - All rights reserved</p>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+  </body>
+</html>
